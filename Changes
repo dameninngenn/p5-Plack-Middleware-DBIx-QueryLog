@@ -1,0 +1,4 @@
+Revision history for Perl extension Plack::Middleware::DBIx::QueryLog
+
+0.01    Mon Aug  6 15:55:20 2012
+        - original version
