@@ -2,7 +2,9 @@ use inc::Module::Install;
 name 'Plack-Middleware-DBIx-QueryLog';
 all_from 'lib/Plack/Middleware/DBIx/QueryLog.pm';
 
-# requires '';
+requires 'Plack::Middleware';
+requires 'DBIx::QueryLog';
+requires 'Text::ASCIITable';
 
 tests 't/*.t';
 author_tests 'xt';
